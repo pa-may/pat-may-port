@@ -1,0 +1,79 @@
+h1{
+    font-size: 7rem;
+    color: rgb(8, 8, 8);
+    margin: 0;
+    font-weight: 900;
+    @media (max-width: 480px){
+        font-size: 7rem;
+      }
+    
+}
+
+h2{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 300;
+    margin: .0;
+
+    @media (max-width: 480px){
+        font-size: 2rem;
+      }
+
+}
+
+h3{
+    color: black;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 500;
+
+       
+//   @media (max-width: 480px){
+//     font-size: 2.2rem;
+//   }
+
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    margin: 0;
+}
+
+h5{
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+
+h6{
+    margin: 0;
+    font-size: 4rem;
+}
+
+.ui{
+    color: #00D4A3;
+    position: relative;
+    top: 4rem;
+}
+
+.ux{
+    color: #FF426E;
+    position: relative;
+    top: 4rem;
+
+}
+
+.footer-dev{
+    font-size: 2rem;
+    color: white;
+
+}
+
+p{
+    font-size: 1.6rem;
+    // color: rgb(175, 175, 175);
+    // font-weight: 700;
+    margin: 0;
+}

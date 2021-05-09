@@ -1,0 +1,116 @@
+
+.pj-para{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 2rem;
+    // margin-bottom: 5rem;
+}
+
+.work-card-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+      @media (max-width: 480px){
+            flex-direction: column;
+          }
+}
+
+
+
+.wc-card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin-right: 5rem;
+    @media (max-width: 480px){
+        width: 100%;
+         margin-right: 0rem;
+      }
+}
+
+.work-card-box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media (max-width: 480px){
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+
+.wc-img{
+    // background-color: cadetblue;
+    height: 40vh;
+    background-image: url(/img/pp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:all ease-in-out 0.3s;
+}
+
+.wc-img1{
+    background-color: rgb(187, 208, 255);
+    background-image: url(/img/work-easyby.png);
+}
+.wc-img2{
+    background-color: rgb(69, 70, 71);
+    background-image: url(/img/work-pts.png);
+}
+.wc-img3{
+    background-color: rgb(228, 187, 255);
+    background-image: url(/img/work-5g.png);
+}
+.wc-img4{
+    background-color: rgb(187, 255, 227);
+    background-image: url(/img/work-monzo.png);
+}
+
+.wc-img5{
+    // background-color: rgb(255, 187, 187);
+    background-image: url(/img/insta-gram-desktop.png);
+}
+
+
+
+
+
+.wc-heading{
+    background-color:white;
+    color: rgb(105, 105, 105);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+.wc-text{
+    background-color:white;
+    color: grey;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+
+}
+
+.work-btn{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    box-shadow: 0 .2rem .3rem 0.1rem #0000007a;
+    border-radius: .5rem;
+}
+
+iframe{
+
+    @media (max-width:480px){
+    width: 100%;
+    }
+}

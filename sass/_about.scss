@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic{
+    width: 20rem;
+    height: 30rem;
+    background-image: url(/img/back.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header{
+    
+    margin-left: 3rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+
+
+.about-text{
+    font-size: 2rem;
+
+}

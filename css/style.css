@@ -1,0 +1,637 @@
+body {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5; }
+
+*,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  margin: 0rem;
+  padding: 0;
+  font-size: 62.5%; }
+  @media (max-width: 480px) {
+    html {
+      font-size: 55%; } }
+
+h1 {
+  font-size: 7rem;
+  color: #080808;
+  margin: 0;
+  font-weight: 900; }
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 7rem; } }
+
+h2 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 300;
+  margin: .0; }
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 2rem; } }
+
+h3 {
+  color: black;
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 500; }
+
+h4 {
+  color: black;
+  font-size: 3rem;
+  margin: 0; }
+
+h5 {
+  margin: 0;
+  font-size: 2rem;
+  color: white; }
+
+h6 {
+  margin: 0;
+  font-size: 4rem; }
+
+.ui {
+  color: #00D4A3;
+  position: relative;
+  top: 4rem; }
+
+.ux {
+  color: #FF426E;
+  position: relative;
+  top: 4rem; }
+
+.footer-dev {
+  font-size: 2rem;
+  color: white; }
+
+p {
+  font-size: 1.6rem;
+  margin: 0; }
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-position-y: 15rem;
+  background-position-x: 80rem;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-image: url(/img/back.png); }
+  @media (max-width: 480px) {
+    .background {
+      height: 100vh;
+      background-position-y: 9rem;
+      background-position-x: 20rem;
+      background-repeat: no-repeat;
+      background-size: 61%; } }
+
+header {
+  position: relative;
+  top: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0; }
+
+.pj-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; }
+  @media (max-width: 480px) {
+    .pj-section {
+      flex-direction: column;
+      width: 100%; } }
+
+.pj-card {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 2rem 0.1rem #8080803b;
+  text-decoration: none;
+  overflow: hidden; }
+  @media (max-width: 480px) {
+    .pj-card {
+      width: 100%;
+      margin-bottom: 5rem; } }
+
+.pj-img {
+  background-color: cadetblue;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  transition: ease-in-out 0.4s; }
+
+.pj-img-1 {
+  background-image: url(/img/easymobile.svg); }
+
+.pj-img-2 {
+  background-image: url(/img/pts-gold.png); }
+
+.pj-img:hover {
+  background-size: 31%; }
+
+.pj-content {
+  padding: 2rem; }
+
+.pj-heading {
+  background-color: white;
+  color: dimgray;
+  padding: .5rem;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600; }
+
+.pj-text {
+  background-color: white;
+  color: grey;
+  padding: .5rem;
+  font-size: 1.4rem;
+  text-align: center; }
+
+.pj-btn {
+  font-size: 1.5rem;
+  padding: 1.5rem 6rem;
+  border: none;
+  cursor: pointer;
+  border-radius: .5rem;
+  background-color: white;
+  box-shadow: 0 0.3rem 0.5rem 0.1rem #00000044;
+  transition: all ease-in-out .3s; }
+
+.pj-btn:hover {
+  background-color: teal; }
+
+.add-work-con {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem; }
+  @media (max-width: 480px) {
+    .add-work-con {
+      padding: 0rem;
+      flex-direction: column; } }
+
+.add-box {
+  width: 18%;
+  height: 25vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all ease-in-out .1s; }
+  @media (max-width: 480px) {
+    .add-box {
+      width: 100%; } }
+
+.box-1 {
+  background-image: url(/img/THESPOTsmall.jpeg); }
+
+.box-2 {
+  background-image: url(/img/ADACI-LOGO.png); }
+
+.box-3 {
+  background-image: url(/img/AliBABA.png); }
+
+.box-4 {
+  background-image: url(/img/BIGEGO.png); }
+
+.box-5 {
+  background-image: url(/img/CASUAL-PLATE.png); }
+
+.project-card {
+  color: wheat;
+  width: 33%;
+  height: 30vh;
+  background-color: whitesmoke; }
+
+.logo {
+  width: 10rem; }
+  @media (max-width: 480px) {
+    .logo {
+      width: 8rem; } }
+
+.logo:hover {
+  fill: cadetblue; }
+
+hr {
+  width: 100%;
+  height: .1rem;
+  background-color: #dadada;
+  border: none; }
+
+.nav {
+  width: 100%;
+  box-shadow: 0 0 2rem 0.1rem #8080803b;
+  padding: 1.5rem 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0; }
+  @media (max-width: 480px) {
+    .nav {
+      padding: 2rem 2rem; } }
+  .nav__con {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center; }
+    @media (max-width: 480px) {
+      .nav__con {
+        justify-content: space-between; } }
+
+.nav ul {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: space-between; }
+
+.nav li {
+  list-style: none;
+  text-align: center;
+  cursor: pointer; }
+
+.nav a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #0c0c0c;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+  font-weight: 500;
+  font-family: raleway; }
+  @media (max-width: 480px) {
+    .nav a {
+      font-size: 1.6rem; } }
+
+.nav a:hover {
+  color: #32cfd4;
+  transform: scale(1.2); }
+
+.nav .icon-box {
+  display: flex;
+  padding: 0;
+  margin: 0; }
+
+.nav .nav__icon {
+  padding: 0;
+  margin: 0;
+  display: flex; }
+
+svg {
+  color: #32cfd4;
+  width: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  transition: ease-in-out all 0.3s; }
+
+svg:hover {
+  transform: scale(1.2); }
+
+main {
+  margin: 0rem 24rem;
+  display: flex;
+  flex-direction: column; }
+  @media (max-width: 480px) {
+    main {
+      margin: 0rem 2rem; } }
+
+section {
+  width: 100%;
+  background-color: whitesmoke;
+  padding-top: 5rem; }
+
+footer {
+  background-color: black;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex; }
+
+.footer-main {
+  display: flex;
+  margin: 0rem 24rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0; }
+  @media (max-width: 480px) {
+    .footer-main {
+      margin: 0rem 4rem;
+      flex-direction: column; } }
+
+.footer-main a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none; }
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.footer-logo {
+  width: 10rem;
+  fill: white; }
+
+.footer-ui {
+  color: #00D4A3; }
+
+.footer-ux {
+  color: #FF426E; }
+
+.about {
+  display: flex;
+  flex-direction: row; }
+
+.profile-pic {
+  width: 20rem;
+  height: 30rem;
+  background-image: url(/img/back.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.about-header {
+  margin-left: 3rem;
+  font-weight: 700;
+  font-size: 3rem; }
+
+.about-text {
+  font-size: 2rem; }
+
+.pj-para {
+  color: black;
+  font-weight: 500;
+  font-size: 2rem; }
+
+.work-card-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem; }
+  @media (max-width: 480px) {
+    .work-card-section {
+      flex-direction: column; } }
+
+.wc-card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  cursor: pointer;
+  margin-right: 5rem; }
+  @media (max-width: 480px) {
+    .wc-card {
+      width: 100%;
+      margin-right: 0rem; } }
+
+.work-card-box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  @media (max-width: 480px) {
+    .work-card-box {
+      margin-top: 2rem;
+      width: 100%; } }
+
+.wc-img {
+  height: 40vh;
+  background-image: url(/img/pp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all ease-in-out 0.3s; }
+
+.wc-img1 {
+  background-color: #bbd0ff;
+  background-image: url(/img/work-easyby.png); }
+
+.wc-img2 {
+  background-color: #454647;
+  background-image: url(/img/work-pts.png); }
+
+.wc-img3 {
+  background-color: #e4bbff;
+  background-image: url(/img/work-5g.png); }
+
+.wc-img4 {
+  background-color: #bbffe3;
+  background-image: url(/img/work-monzo.png); }
+
+.wc-img5 {
+  background-image: url(/img/insta-gram-desktop.png); }
+
+.wc-heading {
+  background-color: white;
+  color: dimgray;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem; }
+
+.wc-text {
+  background-color: white;
+  color: grey;
+  font-size: 1.8rem;
+  margin-bottom: 2rem; }
+
+.work-btn {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  box-shadow: 0 .2rem .3rem 0.1rem #0000007a;
+  border-radius: .5rem; }
+
+@media (max-width: 480px) {
+  iframe {
+    width: 100%; } }
+
+.easy-case img {
+  width: 75%; }
+
+.easy-img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.easy-process {
+  height: 60vh;
+  background-image: url(/img/easy-process@1.25x.png); }
+  @media (max-width: 480px) {
+    .easy-process {
+      height: 29vh; } }
+
+.easy-stat {
+  height: 50vh;
+  background-image: url(/img/easy-stats.png);
+  background-size: contain;
+  font-size: 1.3rem;
+  font-weight: 500; }
+  @media (max-width: 480px) {
+    .easy-stat {
+      height: 18vh; } }
+
+.easy-ia {
+  height: 85vh;
+  background-image: url(/img/ia.easyby.svg); }
+  @media (max-width: 480px) {
+    .easy-ia {
+      height: 30vh; } }
+
+.easy-wire {
+  height: 50vh;
+  background-image: url(/img/easy-wire.svg);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .easy-wire {
+      height: 35vh; } }
+
+.easy-proto {
+  height: 50vh;
+  background-image: url(/img/easy-prototpye.svg);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .easy-proto {
+      height: 25vh; } }
+
+.easy-bold {
+  color: #0063a5; }
+
+.pts-process {
+  height: 70vh;
+  background-image: url(/img/pts-work-process.png);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .pts-process {
+      height: 35vh; } }
+
+.pts-ia {
+  height: 60vh;
+  background-image: url(/img/ia.pts.svg);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .pts-ia {
+      height: 35vh; } }
+
+.pts-proto {
+  height: 60vh;
+  background-image: url(/img/high-proto-pts.svg);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .pts-proto {
+      height: 35vh; } }
+
+.pts-bold {
+  color: #bd0000; }
+
+.fiveg-process {
+  height: 70vh;
+  background-image: url(/img/pts-work-process.png);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .fiveg-process {
+      height: 35vh; } }
+
+.fiveg-ia {
+  height: 60vh;
+  background-image: url(/img/5g-ia.png);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .fiveg-ia {
+      height: 20vh; } }
+
+.fiveg-wire {
+  height: 60vh;
+  background-image: url(/img/fiveg-wireframe.svg);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .fiveg-wire {
+      height: 12vh; } }
+
+.fiveg-proto {
+  height: 60vh;
+  background-image: url(/img/hi-proto.svg);
+  background-size: contain; }
+  @media (max-width: 480px) {
+    .fiveg-proto {
+      height: 25vh; } }
+
+.fiveg-bold {
+  color: #9c00c4; }
+
+.design-box {
+  width: 18%;
+  height: 25vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all ease-in-out .1s; }
+  @media (max-width: 480px) {
+    .design-box {
+      width: 50%; } }
+
+.design-1 {
+  background-image: url(/img/THESPOTsmall.jpeg); }
+
+.design-2 {
+  background-image: url(/img/ADACI-LOGO.png); }
+
+.design-3 {
+  background-image: url(/img/AliBABA.png); }
+
+.design-4 {
+  background-image: url(/img/BIGEGO.png); }
+
+.design-5 {
+  background-image: url(/img/CASUAL-PLATE.png); }
+
+.design-6 {
+  background-image: url(/img/easyby.png); }
+
+.design-7 {
+  background-image: url(/img/emblem-01.png); }
+
+.design-8 {
+  background-image: url(/img/FARM&PANTRY-02.png); }
+
+.design-9 {
+  background-image: url(/img/idrop.png); }
+
+.design-10 {
+  background-image: url(/img/BobNataba.png); }
+
+.design-11 {
+  background-image: url(/img/ptsGOLD.png); }
+
+.design-12 {
+  background-image: url(/img/RnbdesignLOGO.png); }
+
+.design-13 {
+  background-image: url(/img/RulerOfBeards.png); }
+
+.design-14 {
+  background-image: url(/img/SoSAUCY.png); }
+
+.design-15 {
+  background-image: url(/img/newibooking-01.png); }

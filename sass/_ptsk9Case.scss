@@ -1,0 +1,33 @@
+.pts-process{
+    height: 70vh;
+    background-image: url(/img/pts-work-process.png);
+    background-size: contain;
+    @media (max-width: 480px){
+        height: 35vh;
+
+      }
+}
+.pts-ia{
+    height: 60vh;
+    background-image: url(/img/ia.pts.svg);
+    background-size: contain;
+    @media (max-width: 480px){
+        height: 35vh;
+
+      }
+}
+.pts-proto{
+    height: 60vh;
+    background-image: url(/img/high-proto-pts.svg);
+    background-size: contain;
+     @media (max-width: 480px){
+        height: 35vh;
+
+      }
+
+}
+
+.pts-bold{
+    color: rgb(189, 0, 0);
+}
+

@@ -1,0 +1,31 @@
+.design-box{
+    width: 18%;
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all ease-in-out .1s;
+
+    @media (max-width:480px){
+        width: 50%;
+    }
+}
+
+
+.design-1{background-image:url(/img/THESPOTsmall.jpeg)}
+.design-2{background-image:url(/img/ADACI-LOGO.png)}
+.design-3{background-image:url(/img/AliBABA.png)}
+.design-4{background-image:url(/img/BIGEGO.png)}
+.design-5{background-image:url(/img/CASUAL-PLATE.png)}
+
+.design-6{background-image:url(/img/easyby.png)}
+.design-7{background-image:url(/img/emblem-01.png)}
+.design-8{background-image:url(/img/FARM&PANTRY-02.png)}
+.design-9{background-image:url(/img/idrop.png)}
+.design-10{background-image:url(/img/BobNataba.png)}
+
+.design-11{background-image:url(/img/ptsGOLD.png)}
+.design-12{background-image:url(/img/RnbdesignLOGO.png)}
+.design-13{background-image:url(/img/RulerOfBeards.png)}
+.design-14{background-image:url(/img/SoSAUCY.png)}
+.design-15{background-image:url(/img/newibooking-01.png)}

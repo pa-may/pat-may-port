@@ -1,0 +1,60 @@
+.easy-case img{
+    width: 75%;
+}
+
+.easy-img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.easy-process{
+    height: 60vh;
+    background-image: url(/img/easy-process@1.25x.png);
+    @media (max-width: 480px){
+        height: 29vh;
+      }
+}
+.easy-stat{
+    height: 50vh;
+    background-image: url(/img/easy-stats.png);
+    background-size: contain;
+    font-size: 1.3rem;
+    font-weight: 500;
+    @media (max-width: 480px){
+        height: 18vh;
+      }
+}
+
+.easy-ia{
+    height: 85vh;
+    background-image: url(/img/ia.easyby.svg);
+    @media (max-width: 480px){
+        height: 30vh;
+      }
+}
+.easy-wire{
+    height: 50vh;
+    background-image: url(/img/easy-wire.svg);
+    background-size: contain;
+
+    @media (max-width: 480px){
+        height: 35vh;
+      }
+
+}
+
+.easy-proto{
+    height: 50vh;
+    background-image: url(/img/easy-prototpye.svg);
+    background-size: contain;
+    @media (max-width: 480px){
+        height: 25vh;
+      }
+
+}
+
+.easy-bold{
+    color: rgb(0, 99, 165);
+}

@@ -1,0 +1,174 @@
+.background{
+    height: 100vh;
+    width: 100%;
+    background-position-y: 15rem;
+    background-position-x: 80rem;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-image: url(/img/back.png);
+
+    
+  @media (max-width: 480px){
+    height:100vh;
+    background-position-y: 9rem;
+    background-position-x: 20rem;
+    background-repeat: no-repeat;
+    background-size: 61%
+  }
+
+}
+
+header{
+    position: relative;
+    top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pj-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    @media (max-width: 480px){
+        flex-direction: column;
+        width: 100%;
+}
+}
+
+
+
+.pj-card{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 2rem 0.1rem #8080803b;
+    text-decoration: none;
+    overflow: hidden;
+
+
+
+    @media (max-width: 480px){
+        width: 100%;
+        margin-bottom: 5rem;
+}
+}
+
+.pj-img{
+    background-color: cadetblue;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    transition:ease-in-out 0.4s;
+
+}
+
+.pj-img-1{
+    background-image: url(/img/easymobile.svg);
+
+}
+.pj-img-2{
+    background-image: url(/img/pts-gold.png);
+}
+
+.pj-img:hover{
+    background-size:31%;
+}
+
+.pj-content{
+    padding: 2rem;
+}
+
+.pj-heading{
+    background-color:white;
+    color: rgb(105, 105, 105);
+    padding: .5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.pj-text{
+    background-color:white;
+    color: grey;
+    padding: .5rem;
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+.pj-btn{
+    // color: #32cfd4;
+    font-size: 1.5rem;
+    padding: 1.5rem 6rem ;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: 0 0.3rem 0.5rem 0.1rem #00000044;
+    transition: all ease-in-out .3s;
+    // border: inset salmon .2rem;
+   
+}
+
+.pj-btn:hover{
+    background-color: teal;
+   
+}
+
+
+// .pj-btn-txt{
+//    font-size:2rem;
+//    color: #00D4A3;
+// }
+
+
+
+
+.add-work-con{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    @media (max-width: 480px){
+    padding: 0rem;
+    flex-direction: column;
+}
+}
+
+.add-box{
+    width: 18%;
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all ease-in-out .1s;
+
+    @media (max-width: 480px){
+       width: 100%;
+    }
+}
+
+// .add-box:hover{
+//     box-shadow: 0 0.3rem 0.5rem 0.1rem #00000044;
+// }
+
+
+
+
+.box-1{background-image:url(/img/THESPOTsmall.jpeg)}
+.box-2{background-image:url(/img/ADACI-LOGO.png)}
+.box-3{background-image:url(/img/AliBABA.png)}
+.box-4{background-image:url(/img/BIGEGO.png)}
+.box-5{background-image:url(/img/CASUAL-PLATE.png)}
+
+
