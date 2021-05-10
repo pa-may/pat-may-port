@@ -18,7 +18,7 @@ document.querySelector('body').insertAdjacentHTML('beforebegin', `
   </ul>
 
   <div class="icon-box">
-    <a class="nav__icon" href=""><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
+    <a class="nav__icon" href="www.linkedin.com/in/pat-may"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
         class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512">
         <path fill="currentColor"
@@ -26,7 +26,7 @@ document.querySelector('body').insertAdjacentHTML('beforebegin', `
         </path>
       </svg>
     </a>
-    <a class="nav__icon" href=""><svg aria-hidden="true" focusable="false" data-prefix="fab"
+    <a class="nav__icon" href="https://www.instagram.com/perspectivestudio.online/"><svg aria-hidden="true" focusable="false" data-prefix="fab"
         data-icon="instagram-square" class="svg-inline--fa fa-instagram-square fa-w-14" role="img"
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
         <path fill="currentColor"

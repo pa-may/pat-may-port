@@ -65,10 +65,10 @@ h6 {
   top: 4rem; }
 
 .dev {
-  color: #666666; }
+  color: #777777; }
 
 .det {
-  color: #9b9b9b; }
+  color: #a5a5a5; }
 
 .footer-dev {
   font-size: 2rem;
@@ -89,22 +89,22 @@ p {
   background-repeat: no-repeat;
   background-size: 40%;
   background-image: url(../img/back.png); }
-  @media (max-width: 480px) {
-    .background {
-      height: 100vh;
-      background-position-y: 7rem;
-      background-position-x: 12rem;
-      background-repeat: no-repeat;
-      background-size: 86%; } }
   @media (max-width: 900px) {
     .background {
-      height: 100vh;
+      height: 115vh;
       width: 100%;
       background-position-y: 7rem;
       background-position-x: 29rem;
       background-repeat: no-repeat;
       background-size: 68%;
       background-image: url(../img/back.png); } }
+  @media (max-width: 480px) {
+    .background {
+      height: 110vh;
+      background-position-y: 7rem;
+      background-position-x: 12rem;
+      background-repeat: no-repeat;
+      background-size: 86%; } }
 
 header {
   position: relative;
@@ -358,7 +358,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0; }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .footer-main {
       margin: 0rem 4rem;
       flex-direction: column; } }
