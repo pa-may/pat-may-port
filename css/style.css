@@ -79,14 +79,14 @@ p {
   background-position-x: 80rem;
   background-repeat: no-repeat;
   background-size: 40%;
-  background-image: url(/img/back.png); }
+  background-image: url(../img/back.png); }
   @media (max-width: 480px) {
     .background {
       height: 100vh;
-      background-position-y: 9rem;
-      background-position-x: 20rem;
+      background-position-y: 7rem;
+      background-position-x: 12rem;
       background-repeat: no-repeat;
-      background-size: 61%; } }
+      background-size: 86%; } }
 
 header {
   position: relative;
@@ -129,10 +129,10 @@ header {
   transition: ease-in-out 0.4s; }
 
 .pj-img-1 {
-  background-image: url(/img/easymobile.svg); }
+  background-image: url(../img/easymobile.svg); }
 
 .pj-img-2 {
-  background-image: url(/img/pts-gold.png); }
+  background-image: url(../img/pts-gold.png); }
 
 .pj-img:hover {
   background-size: 31%; }
@@ -192,19 +192,19 @@ header {
       width: 100%; } }
 
 .box-1 {
-  background-image: url(/img/THESPOTsmall.jpeg); }
+  background-image: url(../img/THESPOTsmall.jpeg); }
 
 .box-2 {
-  background-image: url(/img/ADACI-LOGO.png); }
+  background-image: url(../img/ADACI-LOGO.png); }
 
 .box-3 {
-  background-image: url(/img/AliBABA.png); }
+  background-image: url(../img/AliBABA.png); }
 
 .box-4 {
-  background-image: url(/img/BIGEGO.png); }
+  background-image: url(../img/BIGEGO.png); }
 
 .box-5 {
-  background-image: url(/img/CASUAL-PLATE.png); }
+  background-image: url(../img/CASUAL-PLATE.png); }
 
 .project-card {
   color: wheat;
@@ -356,7 +356,7 @@ footer {
 .profile-pic {
   width: 20rem;
   height: 30rem;
-  background-image: url(/img/back.png);
+  background-image: url(../img/back.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
@@ -414,7 +414,7 @@ footer {
 
 .wc-img {
   height: 40vh;
-  background-image: url(/img/pp.png);
+  background-image: url(../img/pp.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -422,22 +422,22 @@ footer {
 
 .wc-img1 {
   background-color: #bbd0ff;
-  background-image: url(/img/work-easyby.png); }
+  background-image: url(../img/work-easyby.png); }
 
 .wc-img2 {
   background-color: #454647;
-  background-image: url(/img/work-pts.png); }
+  background-image: url(../img/work-pts.png); }
 
 .wc-img3 {
   background-color: #e4bbff;
-  background-image: url(/img/work-5g.png); }
+  background-image: url(../img/work-5g.png); }
 
 .wc-img4 {
   background-color: #bbffe3;
-  background-image: url(/img/work-monzo.png); }
+  background-image: url(../img/work-monzo.png); }
 
 .wc-img5 {
-  background-image: url(/img/insta-gram-desktop.png); }
+  background-image: url(../img/insta-gram-desktop.png); }
 
 .wc-heading {
   background-color: white;
@@ -477,14 +477,14 @@ footer {
 
 .easy-process {
   height: 60vh;
-  background-image: url(/img/easy-process@1.25x.png); }
+  background-image: url(../img/easy-process@1.25x.png); }
   @media (max-width: 480px) {
     .easy-process {
       height: 29vh; } }
 
 .easy-stat {
   height: 50vh;
-  background-image: url(/img/easy-stats.png);
+  background-image: url(../img/easy-stats.png);
   background-size: contain;
   font-size: 1.3rem;
   font-weight: 500; }
@@ -494,14 +494,14 @@ footer {
 
 .easy-ia {
   height: 85vh;
-  background-image: url(/img/ia.easyby.svg); }
+  background-image: url(../img/ia.easyby.svg); }
   @media (max-width: 480px) {
     .easy-ia {
       height: 30vh; } }
 
 .easy-wire {
   height: 50vh;
-  background-image: url(/img/easy-wire.svg);
+  background-image: url(../img/easy-wire.svg);
   background-size: contain; }
   @media (max-width: 480px) {
     .easy-wire {
@@ -509,7 +509,7 @@ footer {
 
 .easy-proto {
   height: 50vh;
-  background-image: url(/img/easy-prototpye.svg);
+  background-image: url(../img/easy-prototpye.svg);
   background-size: contain; }
   @media (max-width: 480px) {
     .easy-proto {
@@ -520,7 +520,7 @@ footer {
 
 .pts-process {
   height: 70vh;
-  background-image: url(/img/pts-work-process.png);
+  background-image: url(../img/pts-work-process.png);
   background-size: contain; }
   @media (max-width: 480px) {
     .pts-process {
@@ -528,7 +528,7 @@ footer {
 
 .pts-ia {
   height: 60vh;
-  background-image: url(/img/ia.pts.svg);
+  background-image: url(../img/ia.pts.svg);
   background-size: contain; }
   @media (max-width: 480px) {
     .pts-ia {
@@ -536,7 +536,7 @@ footer {
 
 .pts-proto {
   height: 60vh;
-  background-image: url(/img/high-proto-pts.svg);
+  background-image: url(../img/high-proto-pts.svg);
   background-size: contain; }
   @media (max-width: 480px) {
     .pts-proto {
@@ -547,7 +547,7 @@ footer {
 
 .fiveg-process {
   height: 70vh;
-  background-image: url(/img/pts-work-process.png);
+  background-image: url(../img/pts-work-process.png);
   background-size: contain; }
   @media (max-width: 480px) {
     .fiveg-process {
@@ -555,7 +555,7 @@ footer {
 
 .fiveg-ia {
   height: 60vh;
-  background-image: url(/img/5g-ia.png);
+  background-image: url(../img/5g-ia.png);
   background-size: contain; }
   @media (max-width: 480px) {
     .fiveg-ia {
@@ -563,7 +563,7 @@ footer {
 
 .fiveg-wire {
   height: 60vh;
-  background-image: url(/img/fiveg-wireframe.svg);
+  background-image: url(../img/fiveg-wireframe.svg);
   background-size: contain; }
   @media (max-width: 480px) {
     .fiveg-wire {
@@ -571,7 +571,7 @@ footer {
 
 .fiveg-proto {
   height: 60vh;
-  background-image: url(/img/hi-proto.svg);
+  background-image: url(../img/hi-proto.svg);
   background-size: contain; }
   @media (max-width: 480px) {
     .fiveg-proto {
@@ -592,46 +592,46 @@ footer {
       width: 50%; } }
 
 .design-1 {
-  background-image: url(/img/THESPOTsmall.jpeg); }
+  background-image: url(../img/THESPOTsmall.jpeg); }
 
 .design-2 {
-  background-image: url(/img/ADACI-LOGO.png); }
+  background-image: url(../img/ADACI-LOGO.png); }
 
 .design-3 {
-  background-image: url(/img/AliBABA.png); }
+  background-image: url(../img/AliBABA.png); }
 
 .design-4 {
-  background-image: url(/img/BIGEGO.png); }
+  background-image: url(../img/BIGEGO.png); }
 
 .design-5 {
-  background-image: url(/img/CASUAL-PLATE.png); }
+  background-image: url(../img/CASUAL-PLATE.png); }
 
 .design-6 {
-  background-image: url(/img/easyby.png); }
+  background-image: url(../img/easyby.png); }
 
 .design-7 {
-  background-image: url(/img/emblem-01.png); }
+  background-image: url(../img/emblem-01.png); }
 
 .design-8 {
-  background-image: url(/img/FARM&PANTRY-02.png); }
+  background-image: url(../img/FARM&PANTRY-02.png); }
 
 .design-9 {
-  background-image: url(/img/idrop.png); }
+  background-image: url(../img/idrop.png); }
 
 .design-10 {
-  background-image: url(/img/BobNataba.png); }
+  background-image: url(../img/BobNataba.png); }
 
 .design-11 {
-  background-image: url(/img/ptsGOLD.png); }
+  background-image: url(../img/ptsGOLD.png); }
 
 .design-12 {
-  background-image: url(/img/RnbdesignLOGO.png); }
+  background-image: url(../img/RnbdesignLOGO.png); }
 
 .design-13 {
-  background-image: url(/img/RulerOfBeards.png); }
+  background-image: url(../img/RulerOfBeards.png); }
 
 .design-14 {
-  background-image: url(/img/SoSAUCY.png); }
+  background-image: url(../img/SoSAUCY.png); }
 
 .design-15 {
-  background-image: url(/img/newibooking-01.png); }
+  background-image: url(../img/newibooking-01.png); }

@@ -5,15 +5,14 @@
     background-position-x: 80rem;
     background-repeat: no-repeat;
     background-size: 40%;
-    background-image: url(/img/back.png);
-
+    background-image: url(../img/back.png);
     
   @media (max-width: 480px){
-    height:100vh;
-    background-position-y: 9rem;
-    background-position-x: 20rem;
+    height: 100vh;
+    background-position-y: 7rem;
+    background-position-x: 12rem;
     background-repeat: no-repeat;
-    background-size: 61%
+    background-size: 86%;
   }
 
 }
@@ -70,11 +69,11 @@ header{
 }
 
 .pj-img-1{
-    background-image: url(/img/easymobile.svg);
+    background-image: url(../img/easymobile.svg);
 
 }
 .pj-img-2{
-    background-image: url(/img/pts-gold.png);
+    background-image: url(../img/pts-gold.png);
 }
 
 .pj-img:hover{
@@ -165,10 +164,10 @@ header{
 
 
 
-.box-1{background-image:url(/img/THESPOTsmall.jpeg)}
-.box-2{background-image:url(/img/ADACI-LOGO.png)}
-.box-3{background-image:url(/img/AliBABA.png)}
-.box-4{background-image:url(/img/BIGEGO.png)}
-.box-5{background-image:url(/img/CASUAL-PLATE.png)}
+.box-1{background-image:url(../img/THESPOTsmall.jpeg)}
+.box-2{background-image:url(../img/ADACI-LOGO.png)}
+.box-3{background-image:url(../img/AliBABA.png)}
+.box-4{background-image:url(../img/BIGEGO.png)}
+.box-5{background-image:url(../img/CASUAL-PLATE.png)}
 
 
