@@ -6,7 +6,7 @@
 .profile-pic{
     width: 20rem;
     height: 30rem;
-    background-image: url(../img/back.png);
+    background-image: url(../img/pa-portfolio-pic.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,6 +24,11 @@
     margin-left: 3rem;
     font-weight: 700;
     font-size: 3rem;
+}
+
+.about-text{
+    color: black;
+    font-weight: 400;
 }
 
 

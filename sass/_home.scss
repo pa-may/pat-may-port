@@ -1,8 +1,9 @@
 .background{
     height: 100vh;
     width: 100%;
-    background-position-y: 15rem;
+    background-position-y: 5rem;
     background-position-x: 80rem;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 40%;
     background-image: url(../img/back.png);
@@ -15,6 +16,18 @@
     background-size: 86%;
   }
 
+  @media (max-width: 900px){
+  height: 100vh;
+    width: 100%;
+    background-position-y: 7rem;
+    background-position-x: 29rem;
+    background-repeat: no-repeat;
+    background-size: 68%;
+    background-image: url(../img/back.png);
+}
+
+
+
 }
 
 header{
@@ -24,6 +37,11 @@ header{
     display: flex;
     flex-direction: column;
     padding: 0;
+
+    
+//     @media (max-width: 768px){
+//         top: 0rem;
+// }
 }
 
 .pj-section{
@@ -66,6 +84,11 @@ header{
     background-size: 30%;
     transition:ease-in-out 0.4s;
 
+    
+    @media (max-width: 768px){
+        background-size: 45%;}
+
+
 }
 
 .pj-img-1{
@@ -82,6 +105,11 @@ header{
 
 .pj-content{
     padding: 2rem;
+
+    @media (max-width: 768px){
+        padding: 1rem;
+
+}
 }
 
 .pj-heading{
@@ -116,10 +144,10 @@ header{
    
 }
 
-.pj-btn:hover{
-    background-color: teal;
+// .pj-btn:hover{
+//     background-color: teal;
    
-}
+// }
 
 
 // .pj-btn-txt{
@@ -136,10 +164,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    // padding: 2rem;
 
     @media (max-width: 480px){
-    padding: 0rem;
     flex-direction: column;
 }
 }
@@ -157,9 +184,6 @@ header{
     }
 }
 
-// .add-box:hover{
-//     box-shadow: 0 0.3rem 0.5rem 0.1rem #00000044;
-// }
 
 
 
