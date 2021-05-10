@@ -7,24 +7,26 @@
     background-repeat: no-repeat;
     background-size: 40%;
     background-image: url(../img/back.png);
-    
-  @media (max-width: 480px){
-    height: 100vh;
-    background-position-y: 7rem;
-    background-position-x: 12rem;
-    background-repeat: no-repeat;
-    background-size: 86%;
-  }
 
-  @media (max-width: 900px){
-  height: 100vh;
-    width: 100%;
-    background-position-y: 7rem;
-    background-position-x: 29rem;
-    background-repeat: no-repeat;
-    background-size: 68%;
-    background-image: url(../img/back.png);
-}
+    @media (max-width: 900px){
+        height: 115vh;
+          width: 100%;
+          background-position-y: 7rem;
+          background-position-x: 29rem;
+          background-repeat: no-repeat;
+          background-size: 68%;
+          background-image: url(../img/back.png);
+        }
+    
+    
+    @media (max-width: 480px){
+        height: 110vh;
+        background-position-y: 7rem;
+        background-position-x: 12rem;
+        background-repeat: no-repeat;
+        background-size: 86%;
+    }
+
 
 
 
