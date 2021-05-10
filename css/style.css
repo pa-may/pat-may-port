@@ -64,19 +64,28 @@ h6 {
   position: relative;
   top: 4rem; }
 
+.dev {
+  color: #666666; }
+
+.det {
+  color: #9b9b9b; }
+
 .footer-dev {
   font-size: 2rem;
   color: white; }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  color: #979797;
+  font-weight: 700;
   margin: 0; }
 
 .background {
   height: 100vh;
   width: 100%;
-  background-position-y: 15rem;
+  background-position-y: 5rem;
   background-position-x: 80rem;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: 40%;
   background-image: url(../img/back.png); }
@@ -87,6 +96,15 @@ p {
       background-position-x: 12rem;
       background-repeat: no-repeat;
       background-size: 86%; } }
+  @media (max-width: 900px) {
+    .background {
+      height: 100vh;
+      width: 100%;
+      background-position-y: 7rem;
+      background-position-x: 29rem;
+      background-repeat: no-repeat;
+      background-size: 68%;
+      background-image: url(../img/back.png); } }
 
 header {
   position: relative;
@@ -127,6 +145,9 @@ header {
   background-repeat: no-repeat;
   background-size: 30%;
   transition: ease-in-out 0.4s; }
+  @media (max-width: 768px) {
+    .pj-img {
+      background-size: 45%; } }
 
 .pj-img-1 {
   background-image: url(../img/easymobile.svg); }
@@ -139,6 +160,9 @@ header {
 
 .pj-content {
   padding: 2rem; }
+  @media (max-width: 768px) {
+    .pj-content {
+      padding: 1rem; } }
 
 .pj-heading {
   background-color: white;
@@ -165,19 +189,14 @@ header {
   box-shadow: 0 0.3rem 0.5rem 0.1rem #00000044;
   transition: all ease-in-out .3s; }
 
-.pj-btn:hover {
-  background-color: teal; }
-
 .add-work-con {
   width: 100%;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 2rem; }
+  align-items: center; }
   @media (max-width: 480px) {
     .add-work-con {
-      padding: 0rem;
       flex-direction: column; } }
 
 .add-box {
@@ -224,7 +243,7 @@ header {
 hr {
   width: 100%;
   height: .1rem;
-  background-color: #dadada;
+  background-color: #e0e0e0;
   border: none; }
 
 .nav {
@@ -236,6 +255,15 @@ hr {
   align-items: center;
   position: absolute;
   top: 0; }
+  @media (max-width: 1280px) {
+    .nav {
+      padding: 2rem 14rem; } }
+  @media (max-width: 900px) {
+    .nav {
+      padding: 2rem 10rem; } }
+  @media (max-width: 768px) {
+    .nav {
+      padding: 2rem 6rem; } }
   @media (max-width: 480px) {
     .nav {
       padding: 2rem 2rem; } }
@@ -245,7 +273,7 @@ hr {
     padding: 0;
     justify-content: flex-end;
     align-items: center; }
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       .nav__con {
         justify-content: space-between; } }
 
@@ -269,7 +297,7 @@ hr {
   transition: all ease-in-out .3s;
   font-weight: 500;
   font-family: raleway; }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .nav a {
       font-size: 1.6rem; } }
 
@@ -302,6 +330,12 @@ main {
   margin: 0rem 24rem;
   display: flex;
   flex-direction: column; }
+  @media (max-width: 1280px) {
+    main {
+      margin: 0rem 14rem; } }
+  @media (max-width: 768px) {
+    main {
+      margin: 0rem 6rem; } }
   @media (max-width: 480px) {
     main {
       margin: 0rem 2rem; } }
@@ -324,7 +358,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0; }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .footer-main {
       margin: 0rem 4rem;
       flex-direction: column; } }
@@ -356,7 +390,7 @@ footer {
 .profile-pic {
   width: 20rem;
   height: 30rem;
-  background-image: url(../img/back.png);
+  background-image: url(../img/pa-portfolio-pic.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
@@ -371,6 +405,10 @@ footer {
   margin-left: 3rem;
   font-weight: 700;
   font-size: 3rem; }
+
+.about-text {
+  color: black;
+  font-weight: 400; }
 
 .about-text {
   font-size: 2rem; }
@@ -462,10 +500,6 @@ footer {
   box-shadow: 0 .2rem .3rem 0.1rem #0000007a;
   border-radius: .5rem; }
 
-@media (max-width: 480px) {
-  iframe {
-    width: 100%; } }
-
 .easy-case img {
   width: 75%; }
 
@@ -474,13 +508,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (max-width: 768px) {
+    .easy-img {
+      background-size: contain; } }
 
 .easy-process {
   height: 60vh;
   background-image: url(../img/easy-process@1.25x.png); }
-  @media (max-width: 480px) {
-    .easy-process {
-      height: 29vh; } }
 
 .easy-stat {
   height: 50vh;
@@ -488,32 +522,23 @@ footer {
   background-size: contain;
   font-size: 1.3rem;
   font-weight: 500; }
-  @media (max-width: 480px) {
-    .easy-stat {
-      height: 18vh; } }
 
 .easy-ia {
   height: 85vh;
   background-image: url(../img/ia.easyby.svg); }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .easy-ia {
-      height: 30vh; } }
+      height: 45vh; } }
 
 .easy-wire {
   height: 50vh;
   background-image: url(../img/easy-wire.svg);
   background-size: contain; }
-  @media (max-width: 480px) {
-    .easy-wire {
-      height: 35vh; } }
 
 .easy-proto {
   height: 50vh;
   background-image: url(../img/easy-prototpye.svg);
   background-size: contain; }
-  @media (max-width: 480px) {
-    .easy-proto {
-      height: 25vh; } }
 
 .easy-bold {
   color: #0063a5; }

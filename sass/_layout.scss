@@ -4,6 +4,18 @@ main{
     display: flex;
     flex-direction: column;
 
+    // @media (max-width: 1280px){
+    //     padding: 2rem 14rem;
+    //   }
+
+    @media (max-width: 1280px){
+        margin: 0rem 14rem;
+    }
+
+    @media (max-width: 768px){
+        margin: 0rem 6rem;
+    }
+
     @media (max-width: 480px){
         margin: 0rem 2rem;
 }
