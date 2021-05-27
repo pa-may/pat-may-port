@@ -1,0 +1,174 @@
+.monzo-case img{
+    width: 75%;
+}
+
+.monzo-img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 768px){
+    background-size: contain;
+}
+
+
+}
+
+.monzo-process{
+    height: 60vh;
+    background-image: url(../img/monzoProcess.png);
+
+    @media (max-width: 768px){
+        height: 40vh;
+        background-size: cover;
+    }
+   
+}
+.monzo-userflow{
+    height: 100vh;
+    background-image: url(../img/userflowMonzo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    @media (max-width: 768px){
+        height: 52vh;
+    background-size: cover;
+
+      }
+    
+}
+
+.monzo-graph{
+    height: 50vh;
+    background-image: url(../img/monzo-graph.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 768px){
+        height: 50vh;
+        background-size: contain;
+      }
+}
+
+.monzo-graph2{
+    height: 50vh;
+    background-image: url(../img/Monzodesktopvmobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media (max-width: 768px){
+        height: 25vh;
+      }
+}
+
+.monzo-persona-box{
+    width: 100%;
+    display: flex;
+
+    @media (max-width: 768px){
+        flex-direction: column;
+      }
+}
+
+.monzo-parent{
+    height: 80vh;
+    width: 50%;
+    background-image: url(../img/monzo-parent.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    @media (max-width: 768px){
+        height: 75vh;
+        width: 100%;
+      }
+
+}
+.monzo-child{
+    background-image: url(../img/monzo-child.png);
+    height: 80vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    @media (max-width: 768px){
+        height: 75vh;
+        width: 100%;
+      }
+}
+
+
+.monzo-feature{
+    height: 50vh;
+    background-image: url(../img/monzo-feature.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (max-width: 768px){
+        height: 30vh;
+    background-size: cover;
+
+      }
+}
+.monzo-wire{
+    height: 125vh;
+    background-image: url(../img/monzoWireframe.png);
+    background-size: contain;
+
+    @media (max-width: 768px){
+        height: 55vh;
+        background-size: cover;
+
+      }
+}
+
+.monzo-wire2{
+    height: 100vh;
+    background-image: url(../img/parent-wire.png);
+    background-size: contain;
+
+    @media (max-width: 768px){
+        background-size: cover;
+    height: 50vh;
+
+
+      }
+}
+
+
+.monzo-proto{
+    height: 130vh;
+    background-image: url(../img/hi-fimonzo.png);
+    background-size: contain;
+
+    @media (max-width: 600px){
+        height: 58vh;
+        background-size: cover;
+      }
+}
+
+
+
+.monzo-bold{
+    color: rgb(0, 99, 165);
+}
+
+.protobox2{
+    width: 50%;
+    height: 50vh;
+    background-image: url(../img/monzobymobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media (max-width: 600px){
+       width: 100%;
+       height: 40vh;
+ 
+       }
+}
+
+.monzo-bold{
+    color: rgb(0, 148, 44);
+}
