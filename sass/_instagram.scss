@@ -1,0 +1,199 @@
+.monzo-case img{
+    width: 75%;
+}
+
+.instagram-img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 768px){
+    background-size: contain;
+}
+
+
+}
+
+.instagram-research{
+    height: 60vh;
+    background-image: url(../img/product-research-insta.png);
+
+    @media (max-width: 768px){
+        background-size: cover;
+        height: 30vh;
+    }
+}
+   
+
+.instagram-process{
+    height: 60vh;
+    background-image: url(../img/monzoProcess.png);
+
+    @media (max-width: 768px){
+        background-size: cover;
+        height: 35vh;
+    }
+}
+
+.insta-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
+}
+
+.instagram-graph{
+    height: 60vh;
+    background-image: url(../img/insta-graph.png);
+    background-size: contain;
+   
+}
+
+.instagram-graph2{
+    height: 60vh;
+    background-image: url(../img/insta-graph2.png);
+    background-size: contain;
+}
+
+.instagram-research2{
+    height: 70vh;
+    background-image: url(../img/insta-features.png);
+    background-size: contain;
+
+    @media (max-width: 768px){
+        background-size: cover;
+        height: 43vh;
+    }
+}
+
+
+.instagram-pie{
+    height: 60vh;
+    background-image: url(../img/insta-pie.png);
+    background-size: contain;
+
+    @media (max-width: 768px){
+        background-size: cover;
+        height: 25vh;
+    }
+
+   
+}
+
+.insta-persona-box{
+    display: flex;
+    width: 100%;
+
+    @media (max-width: 768px){
+       flex-direction: column;
+    }
+}
+
+
+.insta-persona{
+    height: 80vh;
+    width: 50%;
+    background-image: url(../img/insta-marketing.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    @media (max-width: 768px){
+        height: 70vh;
+        width: 100%;
+
+      }
+}
+
+
+.insta-persona2{
+    height: 80vh;
+    width: 50%;
+    background-image: url(../img/insta-influ.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    @media (max-width: 768px){
+        height: 70vh;
+         width: 100%;
+
+      }
+}
+
+
+.instagram-userflow{
+    height: 70vh;
+    background-image: url(../img/intagram-userflow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    @media (max-width: 768px){
+        height: 40vh;
+    background-size: cover;
+
+      }
+    
+}
+
+.instagram-graph{
+    height: 50vh;
+    background-image: url(../img/monzo-graph.png);
+    background-repeat: no-repeat;
+    @media (max-width: 768px){
+        height: 45vh;
+      }
+}
+
+.instagram-graph2{
+    height: 50vh;
+    background-image: url(../img/Monzodesktopvmobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media (max-width: 768px){
+        height: 45vh;
+      }
+}
+
+
+.instagram-wire{
+    height: 100vh;
+    background-image: url(../img/instaWireHifi.png);
+    background-size: contain;
+
+    @media (max-width: 600px){
+        height: 43vh;
+    background-size: cover;
+
+      }
+}
+
+
+.instagram-proto{
+    height: 50vh;
+    background-image: url(../img/hi-fimonzo.png);
+    background-size: contain;
+
+    @media (max-width: 600px){
+        height: 40vh;
+      }
+}
+
+
+.imstagram-proto2{
+    height: 100vh;
+    background-image: url(../img/monzobymobile.png);
+    background-size: contain;
+}
+
+
+
+
+.instagram-bold{
+    color: rgb(66, 0, 172);
+}
